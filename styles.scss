@@ -66,13 +66,13 @@ ul{
     background: no-repeat;
     background-size: cover;
     background-position: center;
-    background-image: url(../hexagons/img/man.jpg);
+    background-image: url(./img/man.jpg);
     -webkit-transform: skewY(-30deg) rotate(60deg) ;
         -ms-transform: skewY(-30deg) rotate(60deg) ;
             transform: skewY(-30deg) rotate(60deg) ;
     @each $number, $value in $pics{
     	&.#{$number}{
-    		background-image: url("../hexagons/img/" +$value +".jpg");
+    		background-image: url("./img/" +$value +".jpg");
     	}
     }
 }
@@ -294,7 +294,7 @@ ul{
     content: "";
     width: 64px;
     height: 55px;
-    background: url(../hexagons/img/logo.png) no-repeat center;
+    background: url(./img/logo.png) no-repeat center;
     top: -33px;
     right: -1px;
     z-index: 399;
@@ -372,7 +372,7 @@ ul{
 		background-size: 50%;
 		@each $soc_media in $soc-icons{
     		&[data-icon=#{$soc_media}]{
-    			background-image: url("../hexagons/img/soc_icons/" +$soc_media +".svg");
+    			background-image: url("./img/soc_icons/" +$soc_media +".svg");
     		}
     	}
 	}
