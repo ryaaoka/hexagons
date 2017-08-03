@@ -98,9 +98,9 @@ ul{
 }
 
 .list.third{
-    -webkit-transform: translateY(-36%);
-        -ms-transform: translateY(-36%);
-            transform: translateY(-36%);
+    -webkit-transform: translateY(-34%);
+        -ms-transform: translateY(-34%);
+            transform: translateY(-34%);
     margin-top: 0;
 }
 
@@ -144,7 +144,7 @@ ul{
 }
 
 .hex-list.second{
-
+	line-height: normal;
 	li{
 	    width: 17.52%;
 	    margin-right: 2.1%;
@@ -278,7 +278,7 @@ ul{
     border-left: 45px solid transparent;
     border-right: 45px solid transparent;
     position: relative;
-    top:17px;
+    top:16px;
 }
 
 .nav .logo{
@@ -296,7 +296,7 @@ ul{
     height: 55px;
     background: url(./img/logo.png) no-repeat center;
     top: -33px;
-    right: -1px;
+    right: 0;
     z-index: 399;
 }
 
@@ -552,6 +552,11 @@ ul{
     .person:before{
     	display: none;
     }
+    .list.third{
+    -webkit-transform: translateY(-38%);
+        -ms-transform: translateY(-38%);
+            transform: translateY(-38%);
+     }
 } 
 
 @media screen and (-moz-images-in-menus:0) {
